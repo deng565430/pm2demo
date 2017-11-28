@@ -1,0 +1,35 @@
+{
+  "name": "pm2demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pm2 start pm2.json && pm2 logs",
+    "start": "npm run dev",
+    "stop": "pm2 stop pm2demo && pm2 delete pm2demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deng565430/pm2demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deng565430/pm2demo/issues"
+  },
+  "homepage": "https://github.com/deng565430/pm2demo#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.1",
+    "koa-views": "^6.1.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "shelljs": "^0.7.8"
+  }
+}
