@@ -6,7 +6,7 @@
     */
  "apps": [{
   "name": "pm2demo",
-  "script": "./server/app.js",
+  "script": "node ./server/app.js",
   "error_file"   : "./logs/server-err.log",
   "out_file"    : "./logs/server-out.log",
   "merge_logs"   : true,
