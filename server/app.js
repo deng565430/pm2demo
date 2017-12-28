@@ -7,7 +7,7 @@ const koaLogger = require('koa-logger');
 const bodyParser = require('koa-bodyparser');
 
 
-const CONFIG = require('../config/config.js');
+const CONFIG = require('./config/config.js');
 const routers = require('./routers/index');
 
 
